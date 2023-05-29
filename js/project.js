@@ -43,10 +43,36 @@ function addProject(event) {
 
   let duration = getDifferenceTimeInput();
 
-  const nodeIcon = `<img src="assets/img/Node JS.png" alt="gambar-node" />`;
-  const nextIcon = `<img src="assets/img/nextjs.png" alt="gambar-next" />`;
-  const reactIcon = `<img src="assets/img/reactjs.png" alt="gambar-react" />`;
-  const typeIcon = `<img src="assets/img/ts.png" alt="gambar-type" />`;
+  const nodeIcon = ` <div class="icon-linked-app">
+                  <div class="nodejs">
+                    <img
+                      src="assets/img/Node JS.png"
+                      alt="gambar-node"
+                      class="gambar-node"
+                    />
+                  </div>
+                  </div>`;
+  const nextIcon = `<div class="icon-linked-app"> <div class="nextjs">
+                    <img
+                      src="assets/img/nextjs.png"
+                      alt="gambar-next"
+                      class="gambar-next"
+                    />
+                  </div> </div>`;
+  const reactIcon = `<div class="icon-linked-app"> <div class="reactjs">
+                    <img
+                      src="assets/img/reactjs.png"
+                      alt="gambar-react"
+                      class="gambar-react"
+                    />
+                  </div> </div>`;
+  const typeIcon = ` <div class="icon-linked-app"> <div class="typescript">
+                    <img
+                      src="assets/img/ts.png"
+                      alt="gambar-type"
+                      class="gambar-type"
+                    />
+                  </div>  </div>`;
 
 
   let nodeIconCheck = document.getElementById("tech1").checked ? nodeIcon : "";
@@ -100,7 +126,7 @@ function renderProject() {
                 <p class="caption">
                   ${dataProject[index].description}
                 </p>
-                <div class="icon-linked-app" style="width: 50px">
+                <div class="icon-linked-app">
                   <div class="nodejs">
                     ${dataProject[index].nodeIconCheck}
                   </div>

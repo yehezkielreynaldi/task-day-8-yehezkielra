@@ -250,7 +250,7 @@ textarea {
 
 .grid article .icon-linked-app {
     display: flex;
-    width: 100px;
+    /* width: 100px; */
     object-fit: cover;
     cursor: pointer;
 }
@@ -262,19 +262,30 @@ textarea {
 
 }
 
-.grid article .icon-linked-app .nextjs {
-    position: relative;
-    left: 20px;
+.grid article .icon-linked-app .nodejs .gambar-node {
+    width: 23px;
+    margin-right: 5px;
 }
 
-.grid article .icon-linked-app .reactjs {
-    position: relative;
-    left: 40px;
+.grid article .icon-linked-app .nextjs .gambar-next {
+    /* position: relative;
+    left: 20px; */
+    width: 23px;
+    margin-right: 5px;
 }
 
-.grid article .icon-linked-app .typescript {
-    position: relative;
-    left: 60px;
+.grid article .icon-linked-app .reactjs .gambar-react {
+    /* position: relative;
+    left: 40px; */
+    width: 23px;
+    margin-right: 5px;
+}
+
+.grid article .icon-linked-app .typescript .gambar-type {
+    /* position: relative;
+    left: 60px; */
+    width: 23px;
+    margin-right: 5px;
 }
 
 
