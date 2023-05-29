@@ -546,7 +546,6 @@ textarea {
 
         .grid article .icon-linked-app {
             display: flex;
-            width: 60px;
             object-fit: cover;
             cursor: pointer;
         }
@@ -557,19 +556,6 @@ textarea {
             rotate: 360deg;
             transition: ease-in-out 0.555s;
             transition-delay: 0.1s;
-
-        }
-
-        .grid article .icon-linked-app .nextjs {
-            left: 10px;
-        }
-
-        .grid article .icon-linked-app .reactjs {
-            left: 20px;
-        }
-
-        .grid article .icon-linked-app .typescript {
-            left: 30px;
         }
 
 .grid article .btn-group button {
@@ -608,5 +594,37 @@ textarea {
 }
 
 @media only screen and (max-width: 550px) {
+.grid article .icon-linked-app .nodejs .gambar-node {
+        width: 15px;
+        margin-right: 5px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
 
+    .grid article .icon-linked-app .nextjs .gambar-next {
+        /* position: relative;
+    left: 20px; */
+        width: 15px;
+        margin-right: 5px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .grid article .icon-linked-app .reactjs .gambar-react {
+        /* position: relative;
+    left: 40px; */
+        width: 15px;
+        margin-right: 5px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .grid article .icon-linked-app .typescript .gambar-type {
+        /* position: relative;
+    left: 60px; */
+        width: 15px;
+        margin-right: 5px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
 }
